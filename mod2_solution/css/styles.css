@@ -8,9 +8,18 @@
 }
 
 .container_sec {
-    height: 50%;
-    width: 100%;
-    padding: 0 16px;   
+    margin: 0 24px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+} @media (max-width: 991px) {
+    .container_sec {
+        left: 10%;
+    }
+} @media (max-width: 767px) {
+    .container_sec {
+        left: 0%;
+    }
 }
 
 .first_sec {
@@ -19,24 +28,20 @@
     background-color: gray;
     border: 1px solid black;
     float: left;
-    min-height: 200px;
-    margin-left: 32px;
 } @media (max-width: 991px) {
     .first_sec {
-        width: 45%;
-        min-height: 150px;
+        width: 40%;
     }
 } @media (max-width: 767px) {
     .first_sec {
         width: 100%;
-        margin-left: 0;
     }
 }
 
 .first_title {
+    position: absolute;
     background-color: palevioletred;
     border: 1px solid black;
-    position: absolute;
     right: 0px;
     padding: 4px 16px;
     text-align: center;
@@ -57,26 +62,25 @@
     background-color: gray;
     border: 1px solid black;
     float: left;
-    height: 100%;
-    margin: 0 32px;
-    min-height: 200px;
+    left: 2%;
 } @media (max-width: 991px) {
     .second_sec {
-        width: 45%;
-        margin: 0 32px;
-        min-height: 150px;
+        width: 40%;
+        margin-left: 32px;
+        margin-bottom: 32px;
     }
 } @media (max-width: 767px) {
     .second_sec {
         width: 100%;
         margin: 24px 0;
+        left: 0%;
     }
 }
 
 .second_title {
+    position: absolute;
     background-color: red;
     border: 1px solid black;
-    position: absolute;
     right: 0px;
     padding: 4px 16px;
     text-align: center;
@@ -97,19 +101,22 @@
     background-color: gray;
     border: 1px solid black;
     float: left;
-    height: 100%;
-    min-height: 200px;
+    left: 4%;
 } @media (max-width: 991px) {
     .third_sec {
+        width: 86%;
+        left: 0%;
+    }
+} @media (max-width: 767px) {
+    .third_sec {
         width: 100%;
-        min-height: 150px;
     }
 }
 
 .third_title {
+    position: absolute;
     background-color: yellowgreen;
     border: 1px solid black;
-    position: absolute;
     right: 0px;
     padding: 4px 16px;
     text-align: center;
@@ -127,8 +134,6 @@
 p {
     padding: 8px;
     margin-top: 32px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 
