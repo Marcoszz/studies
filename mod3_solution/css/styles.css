@@ -12,7 +12,7 @@
 }
 
 .section {
-    height: 600px;
+    height: auto;
     background-color: grey;
     padding: 24px;
     margin: 24px;
